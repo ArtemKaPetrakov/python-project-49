@@ -9,3 +9,6 @@
 
 ### Asciinema brain-calc
 [![asciicast](https://asciinema.org/a/4IB5CLZfT5bsiP5g7ISKhJ9qm.svg)](https://asciinema.org/a/4IB5CLZfT5bsiP5g7ISKhJ9qm?t=10)
+
+### Asciinema brain-calc
+[![asciicast](https://asciinema.org/a/XgQd48FORj5PsJBtm7GpBpsfy.svg)](https://asciinema.org/a/XgQd48FORj5PsJBtm7GpBpsfy?t=9)

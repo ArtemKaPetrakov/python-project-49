@@ -1,5 +1,6 @@
 import random
 
+
 def run_game():
     rule = 'Answer "yes" if number even otherwise answer "no".'
     question = random.randrange(0, 100)

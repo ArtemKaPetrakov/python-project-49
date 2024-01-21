@@ -23,4 +23,3 @@ def game_run(game):
                   f"Correct answer was '{correct_answer}'")
             # Перенос строки в f шаблоне
     print(f"Congratulations, {name}!")
-    

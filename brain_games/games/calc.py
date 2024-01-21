@@ -1,5 +1,6 @@
 import random
 
+
 def run_game():
     rule = 'What is the result of the expression?'
     operators = ['+', '-', '*']
@@ -11,13 +12,13 @@ def run_game():
     correct_answer = ''
 
     match random_operator:
-            case '+':
-                correct_answer = str(random_number1 + random_number2)
-            case '-':
-                correct_answer = str(random_number1 - random_number2)
-            case '*':
-                correct_answer = str(random_number1 * random_number2)
-            case _:
-                print('Error')
+        case '+':
+            correct_answer = str(random_number1 + random_number2)
+        case '-':
+            correct_answer = str(random_number1 - random_number2)
+        case '*':
+            correct_answer = str(random_number1 * random_number2)
+        case _:
+            print('Error')
 
     return (question, correct_answer, rule)

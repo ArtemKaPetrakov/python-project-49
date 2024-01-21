@@ -15,18 +15,18 @@ from brain_games.games import calc
 #     count = 0
 #     # operators = ['+', '-', '*']
 #     while count != 3:
-#         random_number1 = int(random.randrange(0, 11))
-#         random_number2 = int(random.randrange(0, 11))
+#         random_num1 = int(random.randrange(0, 11))
+#         random_num2 = int(random.randrange(0, 11))
 #         random_operator = operators[random.randrange(0, 3)]
-#         print(f'Question: {random_number1} {random_operator} {random_number2}')
+#         print(f'Question: {random_num1} {random_operator} {random_num2}')
 #         correct_answer = ''
 #         match random_operator:
 #             case '+':
-#                 correct_answer = str(random_number1 + random_number2)
+#                 correct_answer = str(random_num1 + random_num2)
 #             case '-':
-#                 correct_answer = str(random_number1 - random_number2)
+#                 correct_answer = str(random_num1 - random_num2)
 #             case '*':
-#                 correct_answer = str(random_number1 * random_number2)
+#                 correct_answer = str(random_num1 * random_num2)
 #             case _:
 #                 print('Error')
 #         user_answer = prompt.string('').strip()
@@ -39,7 +39,6 @@ from brain_games.games import calc
 #                   f"Correct answer was '{correct_answer}'")
 #             # Перенос строки в f шаблоне
 #     print(f"Congratulations, {name}!")
-
 
 def main():
     game_run(calc)

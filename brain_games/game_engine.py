@@ -17,8 +17,9 @@ def game_run(game):
         user_answer = prompt.string('').strip()
         if (user_answer != correct_answer):
             print(f"'{user_answer}' is wrong answer ;(. "
-                  f"Correct answer was '{correct_answer}'"
-                  f"Let's try again, {name}!")
+                  f"Correct answer was '{correct_answer}'")
+            print(f"Let's try again, {name}!")
+            return
             # Перенос строки в f шаблоне
         elif (user_answer == correct_answer):
             count += 1

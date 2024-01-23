@@ -21,5 +21,6 @@ def game_run(game):
         elif (user_answer != correct_answer):
             print(f"'{user_answer}' is wrong answer ;(. "
                   f"Correct answer was '{correct_answer}'")
+            break
             # Перенос строки в f шаблоне
     print(f"Congratulations, {name}!")

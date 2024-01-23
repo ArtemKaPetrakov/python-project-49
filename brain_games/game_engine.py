@@ -15,12 +15,11 @@ def game_run(game):
         question, correct_answer, rule = game.run_game()
         print(question)
         user_answer = prompt.string('').strip()
-        if (user_answer == correct_answer):
-            count += 1
-            print('Correct!')
-        elif (user_answer != correct_answer):
+        if (user_answer != correct_answer):
             print(f"'{user_answer}' is wrong answer ;(. "
                   f"Correct answer was '{correct_answer}'")
-            break
             # Перенос строки в f шаблоне
+        elif (user_answer == correct_answer):
+            count += 1
+            print('Correct!')
     print(f"Congratulations, {name}!")

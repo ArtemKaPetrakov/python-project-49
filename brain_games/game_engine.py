@@ -14,7 +14,7 @@ def game_run(game):
     while count < 3:
         question, correct_answer, rule = game.run_game()
         print(question)
-        user_answer = prompt.string('').strip()
+        user_answer = prompt.string('Your answer: ').strip()
         if (user_answer != correct_answer):
             print(f"'{user_answer}' is wrong answer ;(. "
                   f"Correct answer was '{correct_answer}'")

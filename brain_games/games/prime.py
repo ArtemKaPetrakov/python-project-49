@@ -11,7 +11,7 @@ def is_prime(number):
     for divide in range(3, number - 1):
         if number % divide == 0:
             return False
-        return True
+    return True
 
 
 def run_game():

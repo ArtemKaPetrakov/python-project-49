@@ -11,7 +11,7 @@ def game_run(game):
 
     count = 0
 
-    while count != 3:
+    while count < 3:
         question, correct_answer, rule = game.run_game()
         print(question)
         user_answer = prompt.string('').strip()

@@ -15,3 +15,5 @@
 
 ### Asciinema brain-progression
 [![asciicast](https://asciinema.org/a/b4HKoVuFUNp80xenfQbUnOFYF.svg)](https://asciinema.org/a/b4HKoVuFUNp80xenfQbUnOFYF?t=5)
+
+### Asciinema brain-prime

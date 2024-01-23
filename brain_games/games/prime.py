@@ -15,7 +15,7 @@ def is_prime(number):
 
 
 def run_game():
-    rule = 'Answer "yes" if given number is prime. Otherwise answer "no"'
+    rule = 'Answer "yes" if given number is prime. Otherwise answer "no".'
     random_element = random.randrange(0, 100)
     question = f'Question: {random_element}'
     correct_answer = 'yes' if is_prime(random_element) else 'no'

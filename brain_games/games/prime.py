@@ -1,22 +1,22 @@
 import random
 
 
+def is_prime(number):
+    if number < 2:
+        return False
+    if number == 2 or number == 3:
+        return True
+    if number % 2 == 0:
+        return False
+    for divide in range(3, number - 1):
+        if number % divide == 0:
+            return False
+        return True
+
+
 def run_game():
-    rule = 'What number is missing in the progression?'
-    # progresion_length = 10
-    # random_element = int(random.randrange(0, 9))
-    # progresion_increment = int(random.randrange(1, 10))
-    # star_number = int(random.randrange(1, 50))
-    # result = []
-    # count = 0
-
-    # while count < progresion_length:
-    #     result.append(str(star_number))
-    #     star_number += progresion_increment
-    #     count += 1
-    # correct_answer = str(result[random_element])
-    # result[random_element] = '..'
-    # result = ' '.join(result)
-    # question = f'Question: {result}'
-
+    rule = 'Answer "yes" if given number is prime. Otherwise answer "no"'
+    random_element = random.randrange(0, 100)
+    question = f'Question: {random_element}'
+    correct_answer = 'yes' if is_prime(random_element) else 'no'
     return (question, correct_answer, rule)

@@ -3,7 +3,8 @@ import random
 
 def run_game():
     rule = 'Answer "yes" if number even otherwise answer "no".'
-    question = f'Question: {random.randrange(0, 100)}'
-    correct_answer = 'yes' if (question % 2 == 0) else 'no'
+    random_number = random.randrange(0, 100)
+    question = f'Question: {random_number}'
+    correct_answer = 'yes' if (random_number % 2 == 0) else 'no'
 
     return (question, correct_answer, rule)

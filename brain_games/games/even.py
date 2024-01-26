@@ -2,6 +2,7 @@ import random
 
 RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
+
 def run_game():
     # rule = 'Answer "yes" if the number is even, otherwise answer "no".'
     random_number = random.randrange(0, 100)

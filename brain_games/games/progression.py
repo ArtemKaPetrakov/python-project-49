@@ -2,6 +2,7 @@ import random
 
 RULE = 'What number is missing in the progression?'
 
+
 def run_game():
     # rule = 'What number is missing in the progression?'
     progresion_length = 10

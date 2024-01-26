@@ -13,7 +13,9 @@ def is_prime(number):
             return False
     return True
 
+
 RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
 
 def run_game():
     # rule = 'Answer "yes" if given number is prime. Otherwise answer "no".'

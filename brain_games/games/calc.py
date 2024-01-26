@@ -2,6 +2,7 @@ import random
 
 RULE = 'What is the result of the expression?'
 
+
 def run_game():
     # rule = 'What is the result of the expression?'
     operators = ['+', '-', '*']

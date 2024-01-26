@@ -13,10 +13,11 @@ def is_prime(number):
             return False
     return True
 
+RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def run_game():
-    rule = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    # rule = 'Answer "yes" if given number is prime. Otherwise answer "no".'
     random_element = random.randrange(0, 100)
     question = f'Question: {random_element}'
     correct_answer = 'yes' if is_prime(random_element) else 'no'
-    return (question, correct_answer, rule)
+    return (question, correct_answer)

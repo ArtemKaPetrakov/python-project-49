@@ -1,8 +1,9 @@
 import random
 
+RULE = 'What number is missing in the progression?'
 
 def run_game():
-    rule = 'What number is missing in the progression?'
+    # rule = 'What number is missing in the progression?'
     progresion_length = 10
     random_element = int(random.randrange(0, 9))
     progresion_increment = int(random.randrange(1, 10))
@@ -19,4 +20,4 @@ def run_game():
     result = ' '.join(result)
     question = f'Question: {result}'
 
-    return (question, correct_answer, rule)
+    return (question, correct_answer)

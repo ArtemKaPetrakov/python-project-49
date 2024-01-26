@@ -1,8 +1,9 @@
 import random
 
+RULE = 'What is the result of the expression?'
 
 def run_game():
-    rule = 'What is the result of the expression?'
+    # rule = 'What is the result of the expression?'
     operators = ['+', '-', '*']
     random_number1 = int(random.randrange(0, 11))
     random_number2 = int(random.randrange(0, 11))
@@ -21,4 +22,4 @@ def run_game():
         case _:
             print('Error')
 
-    return (question, correct_answer, rule)
+    return (question, correct_answer)

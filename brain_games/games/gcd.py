@@ -1,8 +1,10 @@
 import random
 
+RULE = 'Find the greatest common divisor of given numbers.'
+
 
 def run_game():
-    rule = 'Find the greatest common divisor of given numbers.'
+    # rule = 'Find the greatest common divisor of given numbers.'
 
     random_num1 = int(random.randrange(1, 100))
     random_num2 = int(random.randrange(1, 100))
@@ -17,4 +19,4 @@ def run_game():
         else:
             count -= 1
 
-    return (question, correct_answer, rule)
+    return (question, correct_answer)

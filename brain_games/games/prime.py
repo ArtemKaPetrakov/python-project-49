@@ -1,14 +1,15 @@
 import random
+import math
 
 
 def is_prime(number):
     if number < 2:
         return False
-    if number == 2 or number == 3:
-        return True
-    if number % 2 == 0:
-        return False
-    for divide in range(3, number - 1):
+    # if number == 2 or number == 3:
+    #     return True
+    # if number % 2 == 0:
+    #     return False
+    for divide in range(2, int(math.sqrt(number))):
         if number % divide == 0:
             return False
     return True

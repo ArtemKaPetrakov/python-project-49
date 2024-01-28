@@ -9,10 +9,10 @@ def is_prime(number):
     #     return True
     # if number % 2 == 0:
     #     return False
-    for divide in range(2, int(math.sqrt(number))):
+    for divide in range(2, int(math.sqrt(number)) + 1):
         if number % divide == 0:
             return False
-        return True
+    return True
 
 
 RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'

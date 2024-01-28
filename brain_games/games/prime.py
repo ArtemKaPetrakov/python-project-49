@@ -12,7 +12,7 @@ def is_prime(number):
     for divide in range(2, int(math.sqrt(number))):
         if number % divide == 0:
             return False
-    return True
+        return True
 
 
 RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'

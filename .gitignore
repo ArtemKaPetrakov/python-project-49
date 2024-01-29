@@ -1,5 +1,5 @@
 .venv
 __pycache__
-dist
+dist/
 brain_games/__pycache__/
-../dist
+setup.cfg

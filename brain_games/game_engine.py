@@ -19,6 +19,7 @@ def game_run(game):
             print(f"'{user_answer}' is wrong answer ;(. "
                   f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
-            return
+            break
             # Перенос строки в f шаблоне
-    print(f"Congratulations, {name}!")
+    else:    
+        print(f"Congratulations, {name}!")

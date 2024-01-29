@@ -21,5 +21,5 @@ def game_run(game):
             print(f"Let's try again, {name}!")
             break
             # Перенос строки в f шаблоне
-    else:    
+    else:
         print(f"Congratulations, {name}!")

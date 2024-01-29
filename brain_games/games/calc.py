@@ -4,7 +4,6 @@ RULE = 'What is the result of the expression?'
 
 
 def run_game():
-    # rule = 'What is the result of the expression?'
     operators = ['+', '-', '*']
     random_number1 = int(random.randrange(0, 11))
     random_number2 = int(random.randrange(0, 11))

@@ -3,7 +3,6 @@ from brain_games.games import prime
 
 
 def main():
-    # even_game()
     game_run(prime)
 
 

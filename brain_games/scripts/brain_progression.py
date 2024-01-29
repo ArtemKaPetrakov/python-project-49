@@ -3,7 +3,6 @@ from brain_games.games import progression
 
 
 def main():
-    # even_game()
     game_run(progression)
 
 

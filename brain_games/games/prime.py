@@ -1,4 +1,4 @@
-import random
+from random import randint
 import math
 
 RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
@@ -14,7 +14,7 @@ def is_prime(number):
 
 
 def run_game():
-    random_element = random.randrange(0, 100)
+    random_element = randint(0, 100)
     question = f'Question: {random_element}'
     correct_answer = 'yes' if is_prime(random_element) else 'no'
     return (question, correct_answer)

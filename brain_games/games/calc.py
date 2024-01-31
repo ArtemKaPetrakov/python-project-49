@@ -1,13 +1,13 @@
-import random
+from random import randint
 
 RULE = 'What is the result of the expression?'
 
 
 def run_game():
     operators = ['+', '-', '*']
-    random_number1 = int(random.randrange(0, 11))
-    random_number2 = int(random.randrange(0, 11))
-    random_operator = operators[random.randrange(0, 3)]
+    random_number1 = randint(0, 11)
+    random_number2 = randint(0, 11)
+    random_operator = operators[randint(0, 2)]
     question = f'Question: {random_number1} {random_operator} {random_number2}'
 
     correct_answer = ''

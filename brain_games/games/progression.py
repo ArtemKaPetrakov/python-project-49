@@ -1,11 +1,11 @@
-import random
+from random import randint
 
 RULE = 'What number is missing in the progression?'
 
 
 def generate_progression():
-    start = int(random.randrange(1, 100))
-    step = int(random.randrange(1, 10))
+    start = randint(1, 100)
+    step = randint(1, 10)
     stop = start + (step * 10)
     # Условие, чтобы поместились все значения с нужным рандомным шагом
     result = []
@@ -17,7 +17,7 @@ def generate_progression():
 
 def run_game():
     progresion = generate_progression()
-    random_element = random.randrange(0, 9)
+    random_element = randint(0, 9)
     # Выбираем рандомный элемент по индексу
     correct_answer = progresion[random_element]
     progresion[random_element] = '..'

@@ -8,7 +8,7 @@ def run_game():
     random_number1 = randint(0, 11)
     random_number2 = randint(0, 11)
     random_operator = operators[randint(0, 2)]
-    question = f'Question: {random_number1} {random_operator} {random_number2}'
+    question = f'{random_number1} {random_operator} {random_number2}'
 
     correct_answer = ''
 

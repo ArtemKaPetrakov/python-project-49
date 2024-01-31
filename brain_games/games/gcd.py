@@ -16,6 +16,6 @@ def get_qcd(num1, num2):
 def run_game():
     random_num1 = randint(1, 10)
     random_num2 = randint(1, 10)
-    question = f'Question: {random_num1} {random_num2}'
+    question = f'{random_num1} {random_num2}'
     correct_answer = get_qcd(random_num1, random_num2)
     return (question, str(correct_answer))

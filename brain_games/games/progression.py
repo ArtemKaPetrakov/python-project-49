@@ -22,5 +22,5 @@ def run_game():
     correct_answer = progresion[random_element]
     progresion[random_element] = '..'
     result = ' '.join(progresion)
-    question = f'Question: {result}'
+    question = result
     return (question, correct_answer)

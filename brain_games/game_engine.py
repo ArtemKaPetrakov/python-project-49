@@ -11,7 +11,7 @@ def game_run(game):
 
     for _ in range(GAME_ROUNDS):
         question, correct_answer = game.run_game()
-        print(question)
+        print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ').strip()
         if (user_answer == correct_answer):
             print('Correct!')

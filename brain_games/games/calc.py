@@ -14,12 +14,10 @@ def run_game():
 
     match random_operator:
         case '+':
-            correct_answer = str(random_number1 + random_number2)
+            correct_answer = random_number1 + random_number2
         case '-':
-            correct_answer = str(random_number1 - random_number2)
+            correct_answer = random_number1 - random_number2
         case '*':
-            correct_answer = str(random_number1 * random_number2)
-        case _:
-            print('Error')
+            correct_answer = random_number1 * random_number2
 
-    return (question, correct_answer)
+    return (question, str(correct_answer))

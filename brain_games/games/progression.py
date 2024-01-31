@@ -11,7 +11,7 @@ def generate_progression():
     result = []
 
     for number in range(start, stop, step):
-        result.append(str(number))
+        result.append(number)
     return result
 
 
@@ -21,6 +21,6 @@ def run_game():
     # Выбираем рандомный элемент по индексу
     correct_answer = progresion[random_element]
     progresion[random_element] = '..'
-    result = ' '.join(progresion)
+    result = ' '.join([str(item) for item in progresion])
     question = result
-    return (question, correct_answer)
+    return (question, str(correct_answer))

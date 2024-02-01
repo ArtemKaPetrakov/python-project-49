@@ -3,7 +3,7 @@ from random import randint
 RULE = 'What is the result of the expression?'
 
 
-def run_game():
+def generate_data_for_round():
     operators = ['+', '-', '*']
     random_number1 = randint(0, 11)
     random_number2 = randint(0, 11)

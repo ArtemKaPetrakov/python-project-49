@@ -13,7 +13,7 @@ def get_qcd(num1, num2):
             count -= 1
 
 
-def run_game():
+def generate_data_for_round():
     random_num1 = randint(1, 10)
     random_num2 = randint(1, 10)
     question = f'{random_num1} {random_num2}'

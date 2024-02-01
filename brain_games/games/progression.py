@@ -15,7 +15,7 @@ def generate_progression():
     return result
 
 
-def run_game():
+def generate_data_for_round():
     progresion = generate_progression()
     random_element = randint(0, 9)
     # Выбираем рандомный элемент по индексу

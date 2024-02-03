@@ -8,10 +8,7 @@ def generate_progression():
     step = randint(1, 10)
     stop = start + (step * 10)
     # Условие, чтобы поместились все значения с нужным рандомным шагом
-    result = []
-
-    for number in range(start, stop, step):
-        result.append(number)
+    result = list(range(start, stop, step))
     return result
 
 
